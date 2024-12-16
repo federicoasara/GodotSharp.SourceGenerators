@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://e0soiwyyhefo"]
+
+[ext_resource type="Script" path="res://TestScenes/Issue91.DuplicateTypes/Issue91TestScene.cs" id="1_vu81j"]
+[ext_resource type="Script" path="res://TestScenes/Issue91.DuplicateTypes/Alpha/MyObject.cs" id="2_3bblj"]
+
+[node name="Issue91TestScene" type="Node"]
+script = ExtResource("1_vu81j")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("2_3bblj")

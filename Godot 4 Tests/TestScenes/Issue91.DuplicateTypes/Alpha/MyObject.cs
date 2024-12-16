@@ -1,3 +1,5 @@
-namespace Alpha;
+using Godot;
 
-public partial class Alpha: Godot.Node;
+namespace GodotTests.TestScenes.Issue91.Alpha;
+
+public partial class MyObject : Node;
